@@ -26,7 +26,8 @@ export default function Orders() {
   console.log('summary', summary);
 
   const orderCOunt = summary.orderCount;
-  const totalAmount = summary.totalAmount;
+//  const totalAmount = summary.totalAmount;
+  const totalAmount = Math.round(summary.totalAmount * 100.0) / 100.0;  // Round to 2 fractional digits
   const currencyCode = summary.currencyCode;
   const orders = formatOrders(summary.orders);
 

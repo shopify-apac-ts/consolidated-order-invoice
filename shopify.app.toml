@@ -3,7 +3,7 @@
 client_id = "80b018090d9c1075027ea557c2f1b9a3"
 name = "consolidated-order-invoice"
 handle = "consolidated-order-invoice"
-application_url = "https://either-pulse-moisture-appears.trycloudflare.com"
+application_url = "https://synthetic-outlook-forbes-blast.trycloudflare.com"
 embedded = true
 
 [build]
@@ -17,9 +17,9 @@ scopes = "read_all_orders,read_customers,read_orders,write_products"
 
 [auth]
 redirect_urls = [
-  "https://either-pulse-moisture-appears.trycloudflare.com/auth/callback",
-  "https://either-pulse-moisture-appears.trycloudflare.com/auth/shopify/callback",
-  "https://either-pulse-moisture-appears.trycloudflare.com/api/auth/callback"
+  "https://synthetic-outlook-forbes-blast.trycloudflare.com/auth/callback",
+  "https://synthetic-outlook-forbes-blast.trycloudflare.com/auth/shopify/callback",
+  "https://synthetic-outlook-forbes-blast.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
